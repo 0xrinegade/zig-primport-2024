@@ -1,0 +1,15 @@
+.{
+    .name = "native-amm",
+    .version = "0.1.0",
+    .dependencies = .{
+        .solana = .{
+            .url = "https://github.com/solana-labs/solana-program-library/archive/refs/tags/v0.1.0.tar.gz",
+            .hash = "12345", // Replace with actual hash
+        },
+    },
+    .paths = .{
+        "src",
+        "build.zig",
+        "build.zig.zon",
+    },
+}
